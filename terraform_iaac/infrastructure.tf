@@ -16,7 +16,7 @@ resource "aws_instance" "demo-server" {
       tags = {
         Name = "${each.key}"
       }
-
+      
 }
 
 // creating security group for ec2
